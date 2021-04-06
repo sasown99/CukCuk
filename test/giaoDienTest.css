@@ -1,0 +1,19 @@
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: flex;
+}
+
+.content .left-column {
+    background-color: pink;
+    color: purple;
+}
+
+.content .right-column {
+    background-color: green;
+    color: blue;
+}
+
+.header {
+    font-size: 26px;
+}

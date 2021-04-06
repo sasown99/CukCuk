@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuk Cuk</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        .left-side-bar {
+            width: 250px;
+            height: 100vh;
+            border-right: 1px solid gray;
+        }
+
+        .content-body {
+            width: 100%;
+        }
+
+        .header {
+            height: 50px;
+            border-bottom: 1px solid gray;
+        }
+
+        .content {
+            height: calc(100vh - 50px);
+            border-bottom: 1px solid gray;
+        }
+
+        .left-side-bar .logo-toggle {
+            width: 25px;
+            margin: 5px 10px;
+        }
+
+        .left-side-bar .logo-image {
+            width: calc(100% - 83px);
+            margin: 5px 20px 5px 0px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding-left: 11px;;
+        }
+
+        .menu ul a{
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+        }
+
+        .menu ul a:hover{
+            color: blue;
+        }
+
+        ul .menu-item {
+            margin: 20px 0px;
+        }
+
+        ul .menu-item img{
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-side-bar">
+        <div class="logo">
+            <img class = "logo-toggle" src="./content/img/toggle.png" alt="toggle">
+            <img class = "logo-image"src="./content/img/cukcuk-logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="menu-item"><a href="#"><img src="./content/icon/dashboard.png"> Tổng quan</a></li>
+                <li class="menu-item"><a href="#"><img src="./content/icon/dashboard.png"> Báo cáo</a></li>
+                <li class="menu-item"><a href="#"><img src="./content/icon/dashboard.png"> Mua hàng</a></li>
+                <li class="menu-item"><a href="#"><img src="./content/icon/dashboard.png"> Danh mục nhân viên</a></li>
+                <li class="menu-item"><a href="#"><img src="./content/icon/dashboard.png"> Danh mục nhân viên</a></li>
+                <li class="menu-item"><a href="#"><img src="./content/icon/dashboard.png"> Thiết lập hệ thống</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-body">
+        <div class="header">
+            header
+        </div>
+        <div class="content">
+            content
+        </div> 
+    </div>
+</body>
+</html>
